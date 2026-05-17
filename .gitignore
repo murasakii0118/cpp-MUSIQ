@@ -1,0 +1,40 @@
+# Build directories
+build/
+*/build/
+*_build/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ONNX models (should be downloaded separately)
+# ../onnx_models/
+
+# OpenCV and ONNX Runtime (should be downloaded separately)
+# ../onnx-mingw64/
+# ../opencv4120-extra/
+
+# Test images (should be downloaded separately)
+# ../image/
+
+# Output files
+*.txt
+!README.md
